@@ -1,0 +1,14 @@
+.Trials {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+
+  &___listView {
+    display: block;
+    height: 200px;
+  }
+}
+
+.Trial {
+  border: 1px solid black;
+}
